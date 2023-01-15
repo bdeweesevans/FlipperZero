@@ -1,7 +1,7 @@
 import bs4, requests, smtplib, time
 #===================================
 def main():
-    appPassword = input('enter google email application password: ')    # asks user for their email *application* password
+    appPassword = input('enter google email application password: ')    # asks user for their email *application* password. you need to generate this yourself.
     while(True):
         # download HTML and raise error if one occurs
         res = requests.get('https://shop.flipperzero.one/')
